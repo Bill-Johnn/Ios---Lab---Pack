@@ -2,8 +2,8 @@
 
 import UIKit
 
-var Dividendo = 20
-var divisor = 15
+var Dividendo = 144
+var divisor = 12
 var p = 1
 var q = 0
 
