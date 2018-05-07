@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16G29" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Curso" representedClassName="Curso" syncable="YES" codeGenerationType="class">
+        <attribute name="estado" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="exa_final" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nom_curso" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="not1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="not2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="not3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="not4" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pro_lab" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pro_prac" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Curso" positionX="-63" positionY="-18" width="128" height="180"/>
+    </elements>
+</model>
