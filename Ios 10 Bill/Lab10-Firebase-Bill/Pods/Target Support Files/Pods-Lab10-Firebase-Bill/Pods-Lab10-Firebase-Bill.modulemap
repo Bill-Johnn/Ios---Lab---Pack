@@ -1,0 +1,6 @@
+framework module Pods_Lab10_Firebase_Bill {
+  umbrella header "Pods-Lab10-Firebase-Bill-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A650CF62DDA7B3B49C1A705 /* Pods_Lab10_Firebase_Bill.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A9155D24ED1E31DAF51C26C /* Pods_Lab10_Firebase_Bill.framework */; };
+		B825B7BD20AC950E00B58FBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B825B7BC20AC950E00B58FBC /* AppDelegate.swift */; };
+		B825B7BF20AC950E00B58FBC /* iniciarSesionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B825B7BE20AC950E00B58FBC /* iniciarSesionViewController.swift */; };
+		B825B7C220AC950E00B58FBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B825B7C020AC950E00B58FBC /* Main.storyboard */; };
+		B825B7C420AC951100B58FBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B825B7C320AC951100B58FBC /* Assets.xcassets */; };
+		B825B7C720AC951100B58FBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B825B7C520AC951100B58FBC /* LaunchScreen.storyboard */; };
+		B825B7CF20AC959C00B58FBC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B825B7CE20AC959C00B58FBC /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		69E60064DAF99D018805BE46 /* Pods-Lab10-Firebase-Bill.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lab10-Firebase-Bill.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lab10-Firebase-Bill/Pods-Lab10-Firebase-Bill.release.xcconfig"; sourceTree = "<group>"; };
+		6A9155D24ED1E31DAF51C26C /* Pods_Lab10_Firebase_Bill.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lab10_Firebase_Bill.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		962488716CA8D235819F0DAE /* Pods-Lab10-Firebase-Bill.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lab10-Firebase-Bill.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lab10-Firebase-Bill/Pods-Lab10-Firebase-Bill.debug.xcconfig"; sourceTree = "<group>"; };
+		B825B7B920AC950E00B58FBC /* Lab10-Firebase-Bill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lab10-Firebase-Bill.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B825B7BC20AC950E00B58FBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B825B7BE20AC950E00B58FBC /* iniciarSesionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iniciarSesionViewController.swift; sourceTree = "<group>"; };
+		B825B7C120AC950E00B58FBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B825B7C320AC951100B58FBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B825B7C620AC951100B58FBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B825B7C820AC951100B58FBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B825B7CE20AC959C00B58FBC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B825B7B620AC950E00B58FBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A650CF62DDA7B3B49C1A705 /* Pods_Lab10_Firebase_Bill.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50DD724C0D3473F654097303 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A9155D24ED1E31DAF51C26C /* Pods_Lab10_Firebase_Bill.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5A4E54AE7C2D64EA809BAF3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				962488716CA8D235819F0DAE /* Pods-Lab10-Firebase-Bill.debug.xcconfig */,
+				69E60064DAF99D018805BE46 /* Pods-Lab10-Firebase-Bill.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B825B7B020AC950E00B58FBC = {
+			isa = PBXGroup;
+			children = (
+				B825B7BB20AC950E00B58FBC /* Lab10-Firebase-Bill */,
+				B825B7BA20AC950E00B58FBC /* Products */,
+				A5A4E54AE7C2D64EA809BAF3 /* Pods */,
+				50DD724C0D3473F654097303 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B825B7BA20AC950E00B58FBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B825B7B920AC950E00B58FBC /* Lab10-Firebase-Bill.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B825B7BB20AC950E00B58FBC /* Lab10-Firebase-Bill */ = {
+			isa = PBXGroup;
+			children = (
+				B825B7BC20AC950E00B58FBC /* AppDelegate.swift */,
+				B825B7BE20AC950E00B58FBC /* iniciarSesionViewController.swift */,
+				B825B7C020AC950E00B58FBC /* Main.storyboard */,
+				B825B7C320AC951100B58FBC /* Assets.xcassets */,
+				B825B7C520AC951100B58FBC /* LaunchScreen.storyboard */,
+				B825B7C820AC951100B58FBC /* Info.plist */,
+				B825B7CE20AC959C00B58FBC /* GoogleService-Info.plist */,
+			);
+			path = "Lab10-Firebase-Bill";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B825B7B820AC950E00B58FBC /* Lab10-Firebase-Bill */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B825B7CB20AC951100B58FBC /* Build configuration list for PBXNativeTarget "Lab10-Firebase-Bill" */;
+			buildPhases = (
+				3D9D5B2A6900607809054E23 /* [CP] Check Pods Manifest.lock */,
+				B825B7B520AC950E00B58FBC /* Sources */,
+				B825B7B620AC950E00B58FBC /* Frameworks */,
+				B825B7B720AC950E00B58FBC /* Resources */,
+				D56641F4F1589BBC534DA2C7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lab10-Firebase-Bill";
+			productName = "Lab10-Firebase-Bill";
+			productReference = B825B7B920AC950E00B58FBC /* Lab10-Firebase-Bill.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B825B7B120AC950E00B58FBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Tecsup;
+				TargetAttributes = {
+					B825B7B820AC950E00B58FBC = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = B825B7B420AC950E00B58FBC /* Build configuration list for PBXProject "Lab10-Firebase-Bill" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B825B7B020AC950E00B58FBC;
+			productRefGroup = B825B7BA20AC950E00B58FBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B825B7B820AC950E00B58FBC /* Lab10-Firebase-Bill */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B825B7B720AC950E00B58FBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B825B7C720AC951100B58FBC /* LaunchScreen.storyboard in Resources */,
+				B825B7CF20AC959C00B58FBC /* GoogleService-Info.plist in Resources */,
+				B825B7C420AC951100B58FBC /* Assets.xcassets in Resources */,
+				B825B7C220AC950E00B58FBC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D9D5B2A6900607809054E23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lab10-Firebase-Bill-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D56641F4F1589BBC534DA2C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Lab10-Firebase-Bill/Pods-Lab10-Firebase-Bill-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lab10-Firebase-Bill/Pods-Lab10-Firebase-Bill-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B825B7B520AC950E00B58FBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B825B7BF20AC950E00B58FBC /* iniciarSesionViewController.swift in Sources */,
+				B825B7BD20AC950E00B58FBC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B825B7C020AC950E00B58FBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B825B7C120AC950E00B58FBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B825B7C520AC951100B58FBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B825B7C620AC951100B58FBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B825B7C920AC951100B58FBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B825B7CA20AC951100B58FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B825B7CC20AC951100B58FBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 962488716CA8D235819F0DAE /* Pods-Lab10-Firebase-Bill.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lab10-Firebase-Bill/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tecsup.Lab10-Firebase-Bill";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B825B7CD20AC951100B58FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69E60064DAF99D018805BE46 /* Pods-Lab10-Firebase-Bill.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lab10-Firebase-Bill/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tecsup.Lab10-Firebase-Bill";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B825B7B420AC950E00B58FBC /* Build configuration list for PBXProject "Lab10-Firebase-Bill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B825B7C920AC951100B58FBC /* Debug */,
+				B825B7CA20AC951100B58FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B825B7CB20AC951100B58FBC /* Build configuration list for PBXNativeTarget "Lab10-Firebase-Bill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B825B7CC20AC951100B58FBC /* Debug */,
+				B825B7CD20AC951100B58FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B825B7B120AC950E00B58FBC /* Project object */;
+}
