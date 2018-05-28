@@ -8,18 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		5A650CF62DDA7B3B49C1A705 /* Pods_Lab10_Firebase_Bill.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A9155D24ED1E31DAF51C26C /* Pods_Lab10_Firebase_Bill.framework */; };
+		B815954220B3516500EA525C /* SnapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B815954120B3516500EA525C /* SnapsViewController.swift */; };
+		B815954420B355BA00EA525C /* ImagenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B815954320B355BA00EA525C /* ImagenViewController.swift */; };
+		B815954620B3637900EA525C /* ElegirUsuarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B815954520B3637900EA525C /* ElegirUsuarioViewController.swift */; };
+		B815954A20B3660500EA525C /* Usuarios.swift in Sources */ = {isa = PBXBuildFile; fileRef = B815954920B3660500EA525C /* Usuarios.swift */; };
+		B815954C20B3791000EA525C /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B815954B20B3791000EA525C /* RegistroViewController.swift */; };
 		B825B7BD20AC950E00B58FBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B825B7BC20AC950E00B58FBC /* AppDelegate.swift */; };
 		B825B7BF20AC950E00B58FBC /* iniciarSesionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B825B7BE20AC950E00B58FBC /* iniciarSesionViewController.swift */; };
 		B825B7C220AC950E00B58FBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B825B7C020AC950E00B58FBC /* Main.storyboard */; };
 		B825B7C420AC951100B58FBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B825B7C320AC951100B58FBC /* Assets.xcassets */; };
 		B825B7C720AC951100B58FBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B825B7C520AC951100B58FBC /* LaunchScreen.storyboard */; };
 		B825B7CF20AC959C00B58FBC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B825B7CE20AC959C00B58FBC /* GoogleService-Info.plist */; };
+		B82C519320BCAFA300E3D3DC /* Snap.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82C519220BCAFA300E3D3DC /* Snap.swift */; };
+		B82C519520BCB6BD00E3D3DC /* VerSnapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82C519420BCB6BD00E3D3DC /* VerSnapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		69E60064DAF99D018805BE46 /* Pods-Lab10-Firebase-Bill.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lab10-Firebase-Bill.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lab10-Firebase-Bill/Pods-Lab10-Firebase-Bill.release.xcconfig"; sourceTree = "<group>"; };
 		6A9155D24ED1E31DAF51C26C /* Pods_Lab10_Firebase_Bill.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lab10_Firebase_Bill.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		962488716CA8D235819F0DAE /* Pods-Lab10-Firebase-Bill.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lab10-Firebase-Bill.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lab10-Firebase-Bill/Pods-Lab10-Firebase-Bill.debug.xcconfig"; sourceTree = "<group>"; };
+		B815954020B3502B00EA525C /* Lab10-Firebase-Bill.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Lab10-Firebase-Bill.entitlements"; sourceTree = "<group>"; };
+		B815954120B3516500EA525C /* SnapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapsViewController.swift; sourceTree = "<group>"; };
+		B815954320B355BA00EA525C /* ImagenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagenViewController.swift; sourceTree = "<group>"; };
+		B815954520B3637900EA525C /* ElegirUsuarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElegirUsuarioViewController.swift; sourceTree = "<group>"; };
+		B815954920B3660500EA525C /* Usuarios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuarios.swift; sourceTree = "<group>"; };
+		B815954B20B3791000EA525C /* RegistroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroViewController.swift; sourceTree = "<group>"; };
 		B825B7B920AC950E00B58FBC /* Lab10-Firebase-Bill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lab10-Firebase-Bill.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B825B7BC20AC950E00B58FBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B825B7BE20AC950E00B58FBC /* iniciarSesionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iniciarSesionViewController.swift; sourceTree = "<group>"; };
@@ -28,6 +41,8 @@
 		B825B7C620AC951100B58FBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B825B7C820AC951100B58FBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B825B7CE20AC959C00B58FBC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B82C519220BCAFA300E3D3DC /* Snap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snap.swift; sourceTree = "<group>"; };
+		B82C519420BCB6BD00E3D3DC /* VerSnapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerSnapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +74,28 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		B815954720B3659D00EA525C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B815954320B355BA00EA525C /* ImagenViewController.swift */,
+				B815954120B3516500EA525C /* SnapsViewController.swift */,
+				B825B7BE20AC950E00B58FBC /* iniciarSesionViewController.swift */,
+				B815954520B3637900EA525C /* ElegirUsuarioViewController.swift */,
+				B815954B20B3791000EA525C /* RegistroViewController.swift */,
+				B82C519420BCB6BD00E3D3DC /* VerSnapViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B815954820B365D800EA525C /* Modelos */ = {
+			isa = PBXGroup;
+			children = (
+				B815954920B3660500EA525C /* Usuarios.swift */,
+				B82C519220BCAFA300E3D3DC /* Snap.swift */,
+			);
+			path = Modelos;
+			sourceTree = "<group>";
+		};
 		B825B7B020AC950E00B58FBC = {
 			isa = PBXGroup;
 			children = (
@@ -80,8 +117,10 @@
 		B825B7BB20AC950E00B58FBC /* Lab10-Firebase-Bill */ = {
 			isa = PBXGroup;
 			children = (
+				B815954820B365D800EA525C /* Modelos */,
+				B815954720B3659D00EA525C /* ViewControllers */,
+				B815954020B3502B00EA525C /* Lab10-Firebase-Bill.entitlements */,
 				B825B7BC20AC950E00B58FBC /* AppDelegate.swift */,
-				B825B7BE20AC950E00B58FBC /* iniciarSesionViewController.swift */,
 				B825B7C020AC950E00B58FBC /* Main.storyboard */,
 				B825B7C320AC951100B58FBC /* Assets.xcassets */,
 				B825B7C520AC951100B58FBC /* LaunchScreen.storyboard */,
@@ -125,6 +164,11 @@
 				TargetAttributes = {
 					B825B7B820AC950E00B58FBC = {
 						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -188,6 +232,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Lab10-Firebase-Bill/Pods-Lab10-Firebase-Bill-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -195,6 +240,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -211,7 +257,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B825B7BF20AC950E00B58FBC /* iniciarSesionViewController.swift in Sources */,
+				B815954420B355BA00EA525C /* ImagenViewController.swift in Sources */,
 				B825B7BD20AC950E00B58FBC /* AppDelegate.swift in Sources */,
+				B815954220B3516500EA525C /* SnapsViewController.swift in Sources */,
+				B82C519520BCB6BD00E3D3DC /* VerSnapViewController.swift in Sources */,
+				B815954C20B3791000EA525C /* RegistroViewController.swift in Sources */,
+				B815954A20B3660500EA525C /* Usuarios.swift in Sources */,
+				B815954620B3637900EA525C /* ElegirUsuarioViewController.swift in Sources */,
+				B82C519320BCAFA300E3D3DC /* Snap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,7 +409,9 @@
 			baseConfigurationReference = 962488716CA8D235819F0DAE /* Pods-Lab10-Firebase-Bill.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Lab10-Firebase-Bill/Lab10-Firebase-Bill.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8N64XAJTR3;
 				INFOPLIST_FILE = "Lab10-Firebase-Bill/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -374,7 +429,9 @@
 			baseConfigurationReference = 69E60064DAF99D018805BE46 /* Pods-Lab10-Firebase-Bill.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Lab10-Firebase-Bill/Lab10-Firebase-Bill.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8N64XAJTR3;
 				INFOPLIST_FILE = "Lab10-Firebase-Bill/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
