@@ -106,46 +106,93 @@
             </objects>
             <point key="canvasLocation" x="-130" y="73"/>
         </scene>
-        <!--View Controller-->
+        <!--Sound View Controller-->
         <scene sceneID="Fde-iC-4A2">
             <objects>
-                <viewController id="XYc-jE-fqm" sceneMemberID="viewController">
+                <viewController id="XYc-jE-fqm" customClass="SoundViewController" customModule="Lab10_Firebase_Bill" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8FP-Tx-LSD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H1B-3z-MXE">
-                                <rect key="frame" x="164" y="40" width="47" height="30"/>
+                                <rect key="frame" x="164" y="84" width="47" height="30"/>
                                 <state key="normal" title="Grabar">
                                     <color key="titleColor" red="1" green="0.10258613905456671" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="recordTapped:" destination="XYc-jE-fqm" eventType="touchUpInside" id="uDF-Xx-mIa"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NpA-jT-PJ3">
-                                <rect key="frame" x="149.5" y="90" width="76" height="30"/>
+                                <rect key="frame" x="149.5" y="134" width="76" height="30"/>
                                 <state key="normal" title="Reproducir"/>
+                                <connections>
+                                    <action selector="playTapped:" destination="XYc-jE-fqm" eventType="touchUpInside" id="lxW-oQ-D8g"/>
+                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ofi-c1-pof">
-                                <rect key="frame" x="136" y="323" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nombre" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ofi-c1-pof">
+                                <rect key="frame" x="20" y="184" width="335.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nombre del Audio" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ww5-vW-p7p">
+                                <rect key="frame" x="87.5" y="184" width="200" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="O1N-hJ-Pl7"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xRw-x8-oOH">
+                                <rect key="frame" x="114" y="234" width="147" height="30"/>
+                                <color key="backgroundColor" red="0.38687417699222626" green="0.0" blue="0.60374365482233505" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Seleccionar Contacto">
+                                    <color key="titleColor" red="0.97145610056308573" green="0.96131398235514098" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="addTapped:" destination="XYc-jE-fqm" eventType="touchUpInside" id="HQE-ff-IKl"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pae-K1-tbA">
+                                <rect key="frame" x="152" y="284" width="71.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.09244918925543788" green="0.65615085659898476" blue="0.17862769309450227" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="Ofi-c1-pof" firstAttribute="centerY" secondItem="8FP-Tx-LSD" secondAttribute="centerY" id="71u-pB-x0E"/>
+                            <constraint firstItem="Pae-K1-tbA" firstAttribute="centerX" secondItem="8FP-Tx-LSD" secondAttribute="centerX" id="2Vh-dr-Uvc"/>
+                            <constraint firstItem="Ofi-c1-pof" firstAttribute="leading" secondItem="mVW-eq-VDa" secondAttribute="leading" constant="20" id="63U-co-05d"/>
                             <constraint firstItem="NpA-jT-PJ3" firstAttribute="top" secondItem="H1B-3z-MXE" secondAttribute="bottom" constant="20" id="7Hz-L1-CEa"/>
                             <constraint firstItem="NpA-jT-PJ3" firstAttribute="centerX" secondItem="8FP-Tx-LSD" secondAttribute="centerX" id="TwM-bS-S3q"/>
                             <constraint firstItem="H1B-3z-MXE" firstAttribute="top" secondItem="mVW-eq-VDa" secondAttribute="top" constant="20" id="VrT-ku-KDl"/>
+                            <constraint firstItem="xRw-x8-oOH" firstAttribute="top" secondItem="ww5-vW-p7p" secondAttribute="bottom" constant="20" id="WqQ-ZB-Mug"/>
                             <constraint firstItem="H1B-3z-MXE" firstAttribute="centerX" secondItem="8FP-Tx-LSD" secondAttribute="centerX" id="Y4d-2F-UTd"/>
+                            <constraint firstItem="Pae-K1-tbA" firstAttribute="top" secondItem="xRw-x8-oOH" secondAttribute="bottom" constant="20" id="c7i-Dj-rte"/>
+                            <constraint firstItem="Ofi-c1-pof" firstAttribute="centerX" secondItem="8FP-Tx-LSD" secondAttribute="centerX" id="cPU-Vc-Jgc"/>
+                            <constraint firstItem="ww5-vW-p7p" firstAttribute="top" secondItem="NpA-jT-PJ3" secondAttribute="bottom" constant="20" id="giq-ot-bDo"/>
+                            <constraint firstItem="xRw-x8-oOH" firstAttribute="centerX" secondItem="8FP-Tx-LSD" secondAttribute="centerX" id="iyP-wW-Xuw"/>
                             <constraint firstItem="NpA-jT-PJ3" firstAttribute="centerX" secondItem="8FP-Tx-LSD" secondAttribute="centerX" id="r3z-ZT-ObU"/>
+                            <constraint firstItem="Ofi-c1-pof" firstAttribute="top" secondItem="NpA-jT-PJ3" secondAttribute="bottom" constant="20" id="wvn-Ua-HLV"/>
+                            <constraint firstItem="ww5-vW-p7p" firstAttribute="centerX" secondItem="8FP-Tx-LSD" secondAttribute="centerX" id="xdf-Dg-WEz"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="mVW-eq-VDa"/>
                     </view>
+                    <connections>
+                        <outlet property="addButton" destination="xRw-x8-oOH" id="MlH-JB-3E4"/>
+                        <outlet property="lblTiempo" destination="Pae-K1-tbA" id="uDo-NV-exS"/>
+                        <outlet property="nameTextField" destination="ww5-vW-p7p" id="GYa-Ts-XRt"/>
+                        <outlet property="playButtomn" destination="NpA-jT-PJ3" id="Sea-42-I5j"/>
+                        <outlet property="recordButton" destination="H1B-3z-MXE" id="AS8-Zk-J7K"/>
+                        <segue destination="T8F-bY-DPA" kind="show" identifier="audioContactoSegue" id="8mq-y8-jK7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="It5-ja-SFq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1388" y="-282"/>
+            <point key="canvasLocation" x="1388" y="-369"/>
         </scene>
         <!--Snaps View Controller-->
         <scene sceneID="yIw-Jg-GAs">
@@ -181,7 +228,11 @@
                                     <segue destination="417-xC-0Vc" kind="show" id="X98-aA-yXf"/>
                                 </connections>
                             </barButtonItem>
-                            <barButtonItem systemItem="play" id="Utp-Mu-P0B"/>
+                            <barButtonItem systemItem="play" id="Utp-Mu-P0B">
+                                <connections>
+                                    <segue destination="XYc-jE-fqm" kind="show" identifier="audioSegue" id="TMw-3T-Xv7"/>
+                                </connections>
+                            </barButtonItem>
                         </rightBarButtonItems>
                     </navigationItem>
                     <connections>
@@ -212,9 +263,27 @@
                                     </label>
                                 </subviews>
                             </stackView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LdO-xm-mZs">
-                                <rect key="frame" x="10" y="114.5" width="355" height="542.5"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LdO-xm-mZs">
+                                <rect key="frame" x="10" y="115" width="355" height="339"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7gt-dy-dyp">
+                                <rect key="frame" x="149" y="558" width="76" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.8430559961928934" green="0.55588773632394339" blue="0.18414948305781054" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Reproducir">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="AudioTapped:" destination="MFK-70-vEl" eventType="touchUpInside" id="vHX-cY-cyy"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Audio" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kNP-NR-YF4">
+                                <rect key="frame" x="89" y="625" width="73" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <color key="textColor" red="0.72218036167512689" green="0.12024173346818937" blue="0.070881495091546565" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -231,13 +300,15 @@
                         <viewLayoutGuide key="safeArea" id="LOC-Vn-joS"/>
                     </view>
                     <connections>
+                        <outlet property="btnAudio" destination="7gt-dy-dyp" id="3mn-qb-hjO"/>
                         <outlet property="imageView" destination="LdO-xm-mZs" id="wtd-vG-Re1"/>
                         <outlet property="label" destination="74E-ya-nra" id="o8l-jD-UST"/>
+                        <outlet property="labelAudio" destination="kNP-NR-YF4" id="mOi-bg-hOO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vEk-Ar-gon" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1388" y="1115"/>
+            <point key="canvasLocation" x="1388" y="1114.992503748126"/>
         </scene>
         <!--Title-->
         <scene sceneID="gte-B0-tIp">
@@ -358,7 +429,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="caA-BT-tu9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="647" y="409"/>
+            <point key="canvasLocation" x="286" y="324"/>
         </scene>
         <!--Registro View Controller-->
         <scene sceneID="ovb-Qc-9YF">
@@ -449,6 +520,7 @@
         <image name="smite" width="200" height="80"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Kiu-1s-PIk"/>
+        <segue reference="q3l-bN-WeJ"/>
+        <segue reference="8mq-y8-jK7"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -13,6 +13,7 @@
 		B815954620B3637900EA525C /* ElegirUsuarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B815954520B3637900EA525C /* ElegirUsuarioViewController.swift */; };
 		B815954A20B3660500EA525C /* Usuarios.swift in Sources */ = {isa = PBXBuildFile; fileRef = B815954920B3660500EA525C /* Usuarios.swift */; };
 		B815954C20B3791000EA525C /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B815954B20B3791000EA525C /* RegistroViewController.swift */; };
+		B825742120BDBA99009BC287 /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B825742020BDBA99009BC287 /* SoundViewController.swift */; };
 		B825B7BD20AC950E00B58FBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B825B7BC20AC950E00B58FBC /* AppDelegate.swift */; };
 		B825B7BF20AC950E00B58FBC /* iniciarSesionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B825B7BE20AC950E00B58FBC /* iniciarSesionViewController.swift */; };
 		B825B7C220AC950E00B58FBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B825B7C020AC950E00B58FBC /* Main.storyboard */; };
@@ -33,6 +34,7 @@
 		B815954520B3637900EA525C /* ElegirUsuarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElegirUsuarioViewController.swift; sourceTree = "<group>"; };
 		B815954920B3660500EA525C /* Usuarios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuarios.swift; sourceTree = "<group>"; };
 		B815954B20B3791000EA525C /* RegistroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroViewController.swift; sourceTree = "<group>"; };
+		B825742020BDBA99009BC287 /* SoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
 		B825B7B920AC950E00B58FBC /* Lab10-Firebase-Bill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lab10-Firebase-Bill.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B825B7BC20AC950E00B58FBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B825B7BE20AC950E00B58FBC /* iniciarSesionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iniciarSesionViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				B815954520B3637900EA525C /* ElegirUsuarioViewController.swift */,
 				B815954B20B3791000EA525C /* RegistroViewController.swift */,
 				B82C519420BCB6BD00E3D3DC /* VerSnapViewController.swift */,
+				B825742020BDBA99009BC287 /* SoundViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 				B815954420B355BA00EA525C /* ImagenViewController.swift in Sources */,
 				B825B7BD20AC950E00B58FBC /* AppDelegate.swift in Sources */,
 				B815954220B3516500EA525C /* SnapsViewController.swift in Sources */,
+				B825742120BDBA99009BC287 /* SoundViewController.swift in Sources */,
 				B82C519520BCB6BD00E3D3DC /* VerSnapViewController.swift in Sources */,
 				B815954C20B3791000EA525C /* RegistroViewController.swift in Sources */,
 				B815954A20B3660500EA525C /* Usuarios.swift in Sources */,
