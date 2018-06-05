@@ -120,10 +120,35 @@
             </objects>
             <point key="canvasLocation" x="-506.39999999999998" y="-72.413793103448285"/>
         </scene>
-        <!--Publicacion View Controller-->
+        <!--Historial View Controller-->
+        <scene sceneID="ZGT-Yf-vMY">
+            <objects>
+                <viewController id="eGN-t5-Zcc" customClass="HistorialViewController" customModule="ProyectoFinal" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="T0S-p8-RiJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HISTORIAL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RYS-Cy-QZj">
+                                <rect key="frame" x="115" y="304" width="145" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.025231532752513885" green="0.039534077048301697" blue="0.052230052649974823" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                <color key="textColor" red="0.92003589868545532" green="0.97473829984664917" blue="0.93871623277664185" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="nMT-Ze-dPQ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="shs-sj-nyG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1316" y="-493"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="23g-Hg-YSg">
             <objects>
-                <viewController id="W9v-OI-SPG" customClass="PublicacionViewController" customModule="ProyectoFinal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="W9v-OI-SPG" customClass="ViewController" customModule="ProyectoFinal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LJv-db-luj">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -133,9 +158,21 @@
                     <navigationItem key="navigationItem" id="cdk-XF-QwK">
                         <barButtonItem key="leftBarButtonItem" title="Cerrar Sesion" id="DZ5-t0-zDn"/>
                         <rightBarButtonItems>
-                            <barButtonItem systemItem="add" id="lay-aT-f7U"/>
-                            <barButtonItem systemItem="compose" id="Mat-pQ-Ygr"/>
-                            <barButtonItem systemItem="bookmarks" id="PcK-9V-Pg5"/>
+                            <barButtonItem systemItem="add" id="lay-aT-f7U">
+                                <connections>
+                                    <segue destination="GxG-Uz-b3I" kind="show" id="Las-rE-MzQ"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem systemItem="compose" id="Mat-pQ-Ygr">
+                                <connections>
+                                    <segue destination="O1f-3i-ilI" kind="show" id="y4S-v7-Md9"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem systemItem="bookmarks" id="PcK-9V-Pg5">
+                                <connections>
+                                    <segue destination="eGN-t5-Zcc" kind="show" id="h2Z-Cb-XRo"/>
+                                </connections>
+                            </barButtonItem>
                         </rightBarButtonItems>
                     </navigationItem>
                 </viewController>
@@ -143,20 +180,55 @@
             </objects>
             <point key="canvasLocation" x="1316" y="248.72563718140933"/>
         </scene>
-        <!--View Controller-->
+        <!--Publicacion View Controller-->
         <scene sceneID="SHf-jb-5MJ">
             <objects>
-                <viewController id="GxG-Uz-b3I" sceneMemberID="viewController">
+                <viewController id="GxG-Uz-b3I" customClass="PublicacionViewController" customModule="ProyectoFinal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="12o-1Q-UEs">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PUBLICACIONES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EKr-oH-IBv">
+                                <rect key="frame" x="82" y="304" width="210" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.025231532752513885" green="0.039534077048301697" blue="0.052230052649974823" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                <color key="textColor" red="0.92003589868545532" green="0.97473829984664917" blue="0.93871623277664185" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="vzv-RZ-pPw"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AvK-e3-Rps" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2065" y="249"/>
+            <point key="canvasLocation" x="1316" y="990.85457271364328"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="crq-Vs-MV2">
+            <objects>
+                <viewController id="O1f-3i-ilI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IUr-fC-6FB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="USUARIO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OJb-aU-6tQ">
+                                <rect key="frame" x="115" y="304" width="145" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.025231532752513885" green="0.039534077048301697" blue="0.052230052649974823" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                <color key="textColor" red="0.92003589868545532" green="0.97473829984664917" blue="0.93871623277664185" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="chW-Vh-pQB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b0H-Vz-yH9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2165.5999999999999" y="248.72563718140933"/>
         </scene>
         <!--Registrarse View Controller-->
         <scene sceneID="rKZ-Ie-Vpw">

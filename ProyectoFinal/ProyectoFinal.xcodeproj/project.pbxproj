@@ -16,6 +16,8 @@
 		B81BA96A20C6ECBA001DECA5 /* PublicacionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81BA96920C6ECBA001DECA5 /* PublicacionViewController.swift */; };
 		B8D78E4C20C7112B00B9C846 /* IniciarSesionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D78E4B20C7112B00B9C846 /* IniciarSesionViewController.swift */; };
 		B8D78E4E20C7113900B9C846 /* RegistrarseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D78E4D20C7113900B9C846 /* RegistrarseViewController.swift */; };
+		B8D78E5020C7152400B9C846 /* UsuarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D78E4F20C7152400B9C846 /* UsuarioViewController.swift */; };
+		B8D78E5220C7156600B9C846 /* HistorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D78E5120C7156600B9C846 /* HistorialViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		B81BA96920C6ECBA001DECA5 /* PublicacionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicacionViewController.swift; sourceTree = "<group>"; };
 		B8D78E4B20C7112B00B9C846 /* IniciarSesionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IniciarSesionViewController.swift; sourceTree = "<group>"; };
 		B8D78E4D20C7113900B9C846 /* RegistrarseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrarseViewController.swift; sourceTree = "<group>"; };
+		B8D78E4F20C7152400B9C846 /* UsuarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioViewController.swift; sourceTree = "<group>"; };
+		B8D78E5120C7156600B9C846 /* HistorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistorialViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,8 @@
 				B81BA96920C6ECBA001DECA5 /* PublicacionViewController.swift */,
 				B8D78E4B20C7112B00B9C846 /* IniciarSesionViewController.swift */,
 				B8D78E4D20C7113900B9C846 /* RegistrarseViewController.swift */,
+				B8D78E4F20C7152400B9C846 /* UsuarioViewController.swift */,
+				B8D78E5120C7156600B9C846 /* HistorialViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -224,6 +230,8 @@
 				B8D78E4C20C7112B00B9C846 /* IniciarSesionViewController.swift in Sources */,
 				B81BA95920C6E152001DECA5 /* ViewController.swift in Sources */,
 				B81BA95720C6E152001DECA5 /* AppDelegate.swift in Sources */,
+				B8D78E5020C7152400B9C846 /* UsuarioViewController.swift in Sources */,
+				B8D78E5220C7156600B9C846 /* HistorialViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

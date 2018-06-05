@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import GoogleMaps
 
 class ViewController: UIViewController {
 
@@ -19,7 +20,18 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    override func loadView() {
+        let camera = GMSCameraPosition.camera(withLatitude: -16.430195, longitude: -71.519274, zoom: 15.0)
+        let mapView = GMSMapView.map(withFrame: CGRect.zero, camera: camera)
+        mapView.isMyLocationEnabled = true
+        view = mapView
+        
+        let marker = GMSMarker()
+        marker.position = CLLocationCoordinate2D(latitude: -16.430195, longitude: -71.519274)
+        marker.title = "Tecsup"
+        marker.snippet = "Ubicacion"
+        marker.map = mapView
+    }
 
 }
 
